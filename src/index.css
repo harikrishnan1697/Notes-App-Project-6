@@ -1,0 +1,226 @@
+:root{
+    font-family:'Montserrat', sans-serif;
+}
+
+.side{
+    background-color: #203562;
+    width: 290px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 0px 0px 15px;
+    font-family:'Montserrat', sans-serif;;
+}
+.topick{
+    color: #203562;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 40px;
+    padding: 50px 0px 0px 60px;
+    
+}
+.container-fluied{
+    width: 330px;
+    height: 1056px;
+    
+
+}
+#container-fluid{
+    width: 1086px;
+    height: 1024px;
+    background-color: #E3E8F8 ;
+}
+.addnote{
+    width: 1000px;
+    height: 366px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 30px 0px 0px 20px;
+    padding: 50px;
+    color: #676869;
+    font-size: 32px;
+    font-family:'Montserrat', sans-serif;
+    
+}
+
+.form{
+ width: 700px;
+ padding-top: 40px;
+ font-size: 20px;
+ border: none;
+ outline: none;
+ color: rgb(56, 107, 5);
+    
+}
+#hero {
+     /* width: 100%;
+    height: 100%;  */
+    background: url("./assets/wallpaper.jpg") ;
+    background-size:cover;
+    position: absolute;
+    padding: 370px;
+    
+   
+  }
+  
+  #hero:before {
+    content: "";
+     background: rgba(255, 255, 255, 0.6); 
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    position: relative;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #hero h1 span {
+    color: #106eea;
+  }
+  
+  #hero h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #247cf0;
+  }
+  
+  #hero .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #222222;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  #hero .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+  
+  #hero .btn-watch-video:hover {
+    color: #106eea;
+  }
+  
+  #hero .btn-watch-video:hover i {
+    color: #3b8af2;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      /* background-attachment: fixed; */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero {
+      height: 100vh;
+    }
+  
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+    #hero .btn-get-started,
+    #hero .btn-watch-video {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-height: 500px) {
+    #hero {
+      
+      height: 120vh;
+    }
+    
+  }
+
+  .title{
+    border: none;
+    outline: none;
+    color: rgb(136, 2, 2);
+    font-size: 30px;
+  }
+#footer{
+  margin-top:100px;
+  margin-left: 20px;
+}
+
+.row-main{
+  overflow-x:scroll;
+  width: 1000px;
+
+ 
+}
+.top1{
+  font-size: 32px;
+  color:#203562;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+}
+@media (max-width:576px){
+  body{
+    width:576px;
+    
+    
+    
+  }
+  #homein{
+ width:1000px !important ;
+
+ 
+  }
+#hero{
+  background-image: url("./assets/wallpaper.jpg");
+  background-size:cover;
+  height:auto; 
+  width: 1000px;
+  background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+}
+
